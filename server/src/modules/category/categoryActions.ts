@@ -1,6 +1,6 @@
+import type { RequestHandler } from "express";
 // Some data to make the trick
 import categoryRepository from "./categoryRepository";
-import type { RequestHandler } from "express";
 
 const categories = [
   {
